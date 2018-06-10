@@ -18,8 +18,8 @@ Suppose you already have Python on your computer:
        (venv) $ export FLASK_APP=homepage.py
     8. Run the web application:
        (venv) $ flask run
+    9. Visit http://127.0.0.1:5000/ to view the webpage!
        
- Done!
 
 
 
