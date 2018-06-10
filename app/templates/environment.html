@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<body style="background-color:Azure"></body>
+    <h2>Python Installation</h2>
+    <p style="font-family:arial">This web development is based on Python and the Flask framework. Python is pre-installed on my macOS system, and the version is 2.7.10.</p>
+
+    <h2>Flask Installation</h2>
+    <p style="font-family:arial">Flask is a microframework for Python based on Werkzeug and Jinjia2. Before the installation of Flask, a virtual environment is required to maintain different version of packages. So the first step is to create a virtual environment.</p>
+
+    <h2>Virtual Environment</h2>
+    <p style="font-family:arial">1. Download 'virtualenv' by entering the following command in the terminal:</p>
+    <p style="font-family:arial;background-color:Gainsboro">$ sudo easy_install virtualenv</p>
+    <p style="font-family:arial">2. Go to my directory "my_homepage",and create a virtual environment with the following command:</p>
+    <p style="font-family:arial;background-color:Gainsboro">$ virtualvenv venv</p>
+    <p style="font-family:arial">3. Then the virtual environment should be activated by the following command:</p>
+    <p style="font-family:arial;background-color:Gainsboro">$ source venv/bin/activate</p>
+    <p style="font-family:arial">4. After entering the virtual environment, a (venv) should exist before the $ in the terminal. After the virtual envoronment is created and activated, Flask can be installed in it:</p>
+    <p style="font-family:arial;background-color:Gainsboro">(venv) $ pip install flask</p>
+    <p style="font-family:arial">Till now the environmental settings are done, and finally the webpage can be created!</p>
+{% endblock %}

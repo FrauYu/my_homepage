@@ -1,0 +1,20 @@
+<html>
+    <head>
+        
+        <title>{{ title }} - Tong Yu</title>
+
+    </head>
+    <body>
+        <div>
+            Tong Yu:
+            <a href="{{ url_for('home') }}">Home</a>
+            <a href="{{ url_for('environment') }}">Environment</a>
+            <a href="{{ url_for('framework') }}">Framework</a>
+            <a href="{{ url_for('summary') }}">Summary</a>         
+            <a href="{{ url_for('reference') }}">References</a>         
+
+        </div>
+        <hr>
+        {% block content %}{% endblock %}
+    </body>
+</html>
